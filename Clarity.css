@@ -32,12 +32,13 @@ body {
   opacity: 0.84;
 }
 .footerContent {
-  background-color: rgb(5, 75, 136);
-  height: 158px;
+  background-color: rgb(2, 16, 29);
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5% ;
+  padding: 0 5%;
+  color: aliceblue;
 }
 .clarityHeader {
   padding-left: 25px;
@@ -69,7 +70,7 @@ body {
   letter-spacing: -0.16px;
 }
 .life {
-  color: #fff;
+  color: #e9e7e7;
   font-family: Montserrat;
   font-size: 50px;
   font-style: normal;
@@ -86,8 +87,7 @@ body {
 .btn3 {
   padding-top: 20px;
 }
-.cla {
-}
+
 .terms {
   display: flex;
   padding: 2.88px 0.12px 5.51px 0px;
@@ -99,4 +99,21 @@ body {
   padding: 3px 0px 5.39px 0px;
   justify-content: center;
   align-items: center;
+}
+.linkscontainer {
+  display: flex;
+  /* flex-direction: row; */
+  height: 30px;
+  width: 120px;
+  padding: 6.39px 0px 0px 24px;
+  align-items: flex-start;
+  gap: 24px;
+  /* flex-shrink: 0; */
+  justify-content: space-evenly;
+}
+.conditions {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  counter-reset: white;
 }
